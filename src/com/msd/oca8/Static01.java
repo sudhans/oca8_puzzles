@@ -1,3 +1,5 @@
+package com.msd.oca8;
+
 public class Static01 {
 
     private static String getStaticString(String x) {

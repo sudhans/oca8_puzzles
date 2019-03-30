@@ -1,3 +1,5 @@
+package com.msd.oca8;
+
 public class Static02 {
 
 
@@ -10,6 +12,6 @@ public class Static02 {
 
     public static void main(String... args) {
         System.out.println(staticFactory().url); // No null pointer exception here.
-        // A null reference may be used to access a class's static variable
+        // com.msd.oca8.A null reference may be used to access a class's static variable
     }
 }

@@ -1,3 +1,5 @@
+package com.msd.oca8;
+
 public class Wrapper01 {
 
     public static void main(String[] args) {
@@ -17,7 +19,7 @@ public class Wrapper01 {
         System.out.println(i1.equals(i5)); // false - data types are different
         System.out.println(i1.equals(b1)); // false - data types are different
         System.out.println(i6.equals(42)); // false - 42 gets auto boxed to Integer and then returns false as data types are different
-        //System.out.println(i1 == b1); //Compilation Error Integer can't be compared to Byte
+        //System.out.println(com.msd.oca8.i1 == b1); //Compilation Error Integer can't be compared to Byte
 
         System.out.println (Boolean.valueOf(null)); // false
     }

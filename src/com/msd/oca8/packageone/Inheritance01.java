@@ -1,4 +1,4 @@
-package packageone;
+package com.msd.oca8.packageone;
 
 public class Inheritance01 {
         int defaultInt;

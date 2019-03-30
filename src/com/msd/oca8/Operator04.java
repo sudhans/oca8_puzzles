@@ -1,3 +1,5 @@
+package com.msd.oca8;
+
 public class Operator04 {
 
     public static void main(String... args) {

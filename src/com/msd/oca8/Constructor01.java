@@ -1,6 +1,8 @@
+package com.msd.oca8;
+
 class Constructor02 {
 
-    private String name = "Constructor02";
+    private String name = "com.msd.oca8.Constructor02";
 
     public void printName() {
         System.out.println("Name from 02 is :: " + name);
@@ -15,7 +17,7 @@ class Constructor02 {
 
 public class Constructor01 extends Constructor02 {
 
-    private String name = "Constructor01";
+    private String name = "com.msd.oca8.Constructor01";
 
     public void printName() {
         System.out.println("Name from 01 is :: " + name);
@@ -27,7 +29,7 @@ public class Constructor01 extends Constructor02 {
 
     public static void main(String[] args) {
         Constructor01 constructor01 = new Constructor01();  // Prints Default - Constructor 02, Name from 01 is :: null, Default - Constructor 01
-        Constructor02 constructor02 = new Constructor02();    // Prints Default - Constructor 02, Name from 02 is :: Constructor02
+        Constructor02 constructor02 = new Constructor02();    // Prints Default - Constructor 02, Name from 02 is :: com.msd.oca8.Constructor02
 
     }
 }

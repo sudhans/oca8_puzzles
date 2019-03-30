@@ -1,3 +1,5 @@
+package com.msd.oca8;
+
 public class StaticBlock01 {
     static {
         int x = 0;

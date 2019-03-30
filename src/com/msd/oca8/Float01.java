@@ -1,3 +1,5 @@
+package com.msd.oca8;
+
 public class Float01 {
 
     float f = 10.0f;

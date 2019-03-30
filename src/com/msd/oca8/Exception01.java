@@ -1,3 +1,5 @@
+package com.msd.oca8;
+
 public class Exception01 {
 
     public static void main(String[] args) {

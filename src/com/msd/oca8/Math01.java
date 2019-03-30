@@ -1,3 +1,5 @@
+package com.msd.oca8;
+
 public class Math01 {
 
     public static void main(String... args) {
