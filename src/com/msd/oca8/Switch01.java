@@ -16,6 +16,15 @@ public class Switch01 {
                 break;
         }
 
+        byte b = 2;
+        switch (b) {
+            case 'x':
+            case -2:
+            case 80:
+            case 3:
+            default:
+        }
+
 //        switch (j) {   // Incompatible types - long, float, double can't be used for Switch
 //            case 99:
 //            case 100:
