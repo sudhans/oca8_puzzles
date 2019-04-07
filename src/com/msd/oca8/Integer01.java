@@ -1,6 +1,6 @@
 package com.msd.oca8;
 
-public class Integer01 {
+class Integer01 {
     public static void main(String... args) {
         int i = Integer.MIN_VALUE;
         int j = -i;

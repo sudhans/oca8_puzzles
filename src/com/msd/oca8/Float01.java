@@ -9,4 +9,5 @@ public class Float01 {
     float j = 10;
 //    float f1 = 10.0;  // compilation error - double
 //    float g1 = 14e5;  // compilation error - double
+
 }

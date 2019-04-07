@@ -10,4 +10,6 @@ public class Inheritance01 {
             return "You can access public method";
         }
 
+    final int fi = 15;
+
 }

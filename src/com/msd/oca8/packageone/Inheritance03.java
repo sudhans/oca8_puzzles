@@ -3,6 +3,8 @@ package com.msd.oca8.packageone;
 
 public class Inheritance03 extends Inheritance01 {
 
+    int fi = 10;
+
     public static void main (String... args) {
 
         Inheritance03 derivedObject = new Inheritance03();
@@ -22,6 +24,11 @@ public class Inheritance03 extends Inheritance01 {
 
 //        parentObject.callParentPublicMethod(); // Compilation Error
 //        parentObject.callParentProtectedMethod(); // Compilation Error
+
+        derivedObject.fi = 33;
+        System.out.println(((Inheritance01) derivedObject).fi);
+
+
 
     }
 
