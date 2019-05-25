@@ -5,6 +5,8 @@ public class Switch02 {
     public static void main (String... args) {
         String[] intArr = { "10", "20", "30"};
         switch (Integer.parseInt(intArr[2])) {
+            case 5:
+
             case 10:
                 boolean b = false;
                 System.out.println("10");

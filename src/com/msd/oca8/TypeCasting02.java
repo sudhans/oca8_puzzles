@@ -14,4 +14,10 @@ public class TypeCasting02 {
         System.out.println(obj2); //[I@hashcode
         System.out.println(Arrays.toString(intarr3)); // [6, 7, 8]
     }
+
+    public static long anotherMethod(byte b) {
+        double d = 10;
+        //return (long) b/d;  // compilation error, the casting here applies to only b and not whole expression
+        return (long) (b / d);
+    }
 }
